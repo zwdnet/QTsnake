@@ -10,5 +10,3 @@ int main(int argc, char ** argv)
 	return app.exec();
 }
 
-//测试github上远程修改
-//再次远程修改
