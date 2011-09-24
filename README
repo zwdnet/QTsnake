@@ -1,0 +1,18 @@
+用QT写的贪食蛇游戏，在Ubuntu下开发。由于是用QT开发的，理论上是跨平台的，但是我没在其它平台上试过。
+程序结构：
+main.cpp 主函数文件
+snake.h snake.cpp 游戏的数据结构
+mainwindow.h mainwindow.cpp QT相关的类，游戏的框架
+开发环境:
+gcc (Ubuntu 4.4.3-4ubuntu5) 4.4.3
+Qt version 4.6.2
+编译方法:
+qmake -project && qmake && make
+许可协议:
+GPL3.0
+作者:
+zwdnetAT163.com (把AT换成@)
+谢谢
+
+
+
