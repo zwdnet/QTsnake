@@ -103,10 +103,12 @@ void MainWindow::keyPressEvent(QKeyEvent * event)
 		break;
 	case Qt::Key_U:
 		speedUp();
-		break;
+		QWidget::keyPressEvent(event);
+		return;
 	case Qt::Key_D:
 		speedDown();
-		break;
+		QWidget::keyPressEvent(event);
+		return;
 	default:
 		break;
 	}
