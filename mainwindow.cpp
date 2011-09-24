@@ -109,6 +109,16 @@ void MainWindow::keyPressEvent(QKeyEvent * event)
 		speedDown();
 		QWidget::keyPressEvent(event);
 		return;
+	case Qt::Key_Space:
+		if (bRun == true)
+		{
+			pauseGame();
+		}
+		else
+		{
+			startGame();
+		}
+		return;
 	default:
 		break;
 	}
