@@ -32,6 +32,7 @@ void MainWindow::timeout(void)
 		return;
 	}
 	snake.Move();
+	update();
 	IsDie = snake.IsDie();
 	if (IsDie)
 	{
@@ -44,7 +45,6 @@ void MainWindow::timeout(void)
 		snake.Clear();
 		return;
 	}
-	update();
 }
 
 void MainWindow::paintEvent(QPaintEvent * event)
